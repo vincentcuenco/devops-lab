@@ -1,0 +1,7 @@
+targets:
+  - job_name: 'grafana'
+    host: grafana-central
+    port: 3000
+  - job_name: 'blackbox'
+    host: blackbox-exporter
+    port: 9115
