@@ -5,3 +5,6 @@ targets:
   - job_name: 'blackbox'
     host: blackbox-exporter
     port: 9115
+  - job_name: 'snmp'
+    host: snmp-exporter
+    port: 9116
