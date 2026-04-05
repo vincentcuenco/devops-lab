@@ -8,3 +8,9 @@ targets:
   - job_name: 'snmp'
     host: snmp-exporter
     port: 9116
+  - job_name: 'snmp'
+    host: snmp-exporter
+    port: 9116
+  - job_name: 'node-exporter'
+    host: node-exporter
+    port: 9100
