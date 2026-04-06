@@ -2,7 +2,7 @@ name: Server Health Check
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 jobs:
