@@ -1,0 +1,23 @@
+name: Server Health Check
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Check Python version
+        run: python3 --version
+
+      - name: Run server check script
+        run: python3 server-check.py
+
+      - name: Done
+        run: echo "Health check completed successfully!"
