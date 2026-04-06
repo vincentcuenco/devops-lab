@@ -1,0 +1,5 @@
+monitor:
+  - job_name: 'nginx'
+    host: nginx-monitoring
+    port: 80
+    check_interval: 30
