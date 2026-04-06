@@ -1,0 +1,8 @@
+groups:
+  - name: DevOps Alerts
+    rules:
+      - alert: HighCPU
+        expr: cpu_usage > 80
+        for: 5m
+        labels:
+          severity: warning
