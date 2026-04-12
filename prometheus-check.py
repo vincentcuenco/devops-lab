@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import requests
 
-PROMETHEUS_URL = "http://192.168.7.85:9090"
+PROMETHEUS_URL = "http://x.x.x.x:9090"
 
 def check_targets():
     try:
