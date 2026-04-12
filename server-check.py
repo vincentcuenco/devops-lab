@@ -2,9 +2,9 @@
 import socket
 
 servers = [
-    {"name": "grafanaserver", "ip": "192.168.7.85", "port": 3000},
-    {"name": "prometheus", "ip": "192.168.7.85", "port": 9090},
-    {"name": "blackbox", "ip": "192.168.7.85", "port": 9115},
+    {"name": "grafanaserver", "ip": "x.x.x.x", "port": 3000},
+    {"name": "prometheus", "ip": "x.x.x.x", "port": 9090},
+    {"name": "blackbox", "ip": "x.x.x.x", "port": 9115},
 ]
 
 def check_port(ip, port, timeout=3):
